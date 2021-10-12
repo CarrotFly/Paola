@@ -1,0 +1,41 @@
+.full-viewport-container{
+    font-family: 'Londrina Solid', cursive;
+    background-color: #EDE6FD;
+}
+.categories-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.categories-container h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 1.5em;
+}
+.card-categories{
+    position: relative;
+    height: 10rem;
+    width: 90%;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+.card-categories img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-categories__text{
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+.card-categories__text h3{
+    font-family: 'Londrina Solid', cursive ;
+    font-size: 1.2em;
+    padding-left: 1em;
+}

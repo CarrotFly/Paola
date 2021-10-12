@@ -1,0 +1,23 @@
+.card-container{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDE6FD;
+}
+.card{
+    width: 80%;
+}
+.card img{
+    width: 100%;
+}
+.text-container h2{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-family:'Londrina Solid', cursive;
+    text-align: center;
+}
+.text-container p{
+    font-family: 'Londrina Solid', cursive;
+    text-align: center;
+}
